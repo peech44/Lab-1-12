@@ -129,6 +129,7 @@ int main() {
 	student s48(1048, "tammyui"); student s49(1049, "reewut"); student s50(1050, "weerat"); 
 	
 	//
+	
 
 	// array that contains keys to be mapped 
 	int a[] = { 15, 65, 27, 8, 12 };
@@ -149,6 +150,27 @@ int main() {
 	cin >> cell;
 	cout << endl;
 	Hash h(cell);
+
+	//insert sample data
+
+
+	h.insert(s1.getid(), s1.getname()); h.insert(s2.getid(), s2.getname()); h.insert(s3.getid(), s3.getname()); h.insert(s4.getid(), s4.getname());
+	h.insert(s5.getid(), s5.getname()); h.insert(s6.getid(), s6.getname()); h.insert(s7.getid(), s7.getname()); h.insert(s8.getid(), s8.getname());
+	h.insert(s9.getid(), s9.getname()); h.insert(s10.getid(), s10.getname()); h.insert(s11.getid(), s11.getname()); h.insert(s12.getid(), s12.getname());
+	h.insert(s13.getid(), s13.getname()); h.insert(s14.getid(), s14.getname()); h.insert(s15.getid(), s15.getname()); h.insert(s16.getid(), s16.getname());
+	h.insert(s17.getid(), s17.getname()); h.insert(s18.getid(), s18.getname()); h.insert(s19.getid(), s19.getname()); h.insert(s20.getid(), s20.getname());
+	h.insert(s22.getid(), s22.getname()); h.insert(s23.getid(), s23.getname()); h.insert(s24.getid(), s24.getname()); h.insert(s25.getid(), s25.getname());
+	h.insert(s27.getid(), s27.getname()); h.insert(s28.getid(), s28.getname()); h.insert(s29.getid(), s29.getname()); h.insert(s30.getid(), s30.getname());
+	h.insert(s31.getid(), s31.getname()); h.insert(s32.getid(), s32.getname()); h.insert(s33.getid(), s33.getname()); h.insert(s34.getid(), s34.getname());
+	h.insert(s35.getid(), s35.getname()); h.insert(s36.getid(), s36.getname()); h.insert(s37.getid(), s37.getname()); h.insert(s38.getid(), s38.getname());
+	h.insert(s39.getid(), s39.getname()); h.insert(s40.getid(), s40.getname()); h.insert(s41.getid(), s41.getname()); h.insert(s42.getid(), s42.getname());
+	h.insert(s43.getid(), s43.getname()); h.insert(s44.getid(), s44.getname()); h.insert(s45.getid(), s45.getname()); h.insert(s46.getid(), s46.getname());
+	h.insert(s47.getid(), s47.getname()); h.insert(s48.getid(), s48.getname()); h.insert(s49.getid(), s49.getname()); h.insert(s50.getid(), s50.getname());
+	h.insert(s21.getid(), s21.getname()); h.insert(s26.getid(), s26.getname());
+
+
+
+	//
 
 	//
 	cout << "Enter Number of student " << endl;
@@ -175,26 +197,7 @@ int main() {
 	}
 	
 
-	//insert sample data
-
-		
-	h.insert(s1.getid(), s1.getname()); h.insert(s2.getid(), s2.getname()); h.insert(s3.getid(), s3.getname()); h.insert(s4.getid(), s4.getname());
-	h.insert(s5.getid(), s5.getname()); h.insert(s6.getid(), s6.getname()); h.insert(s7.getid(), s7.getname()); h.insert(s8.getid(), s8.getname());
-	h.insert(s9.getid(), s9.getname()); h.insert(s10.getid(), s10.getname()); h.insert(s11.getid(), s11.getname()); h.insert(s12.getid(), s12.getname());
-	h.insert(s13.getid(), s13.getname()); h.insert(s14.getid(), s14.getname()); h.insert(s15.getid(), s15.getname()); h.insert(s16.getid(), s16.getname());
-	h.insert(s17.getid(), s17.getname()); h.insert(s18.getid(), s18.getname()); h.insert(s19.getid(), s19.getname()); h.insert(s20.getid(), s20.getname());
-	h.insert(s22.getid(), s22.getname()); h.insert(s23.getid(), s23.getname()); h.insert(s24.getid(), s24.getname()); h.insert(s25.getid(), s25.getname());
-	h.insert(s27.getid(), s27.getname()); h.insert(s28.getid(), s28.getname()); h.insert(s29.getid(), s29.getname()); h.insert(s30.getid(), s30.getname());
-	h.insert(s31.getid(), s31.getname()); h.insert(s32.getid(), s32.getname()); h.insert(s33.getid(), s33.getname()); h.insert(s34.getid(), s34.getname());
-	h.insert(s35.getid(), s35.getname()); h.insert(s36.getid(), s36.getname()); h.insert(s37.getid(), s37.getname()); h.insert(s38.getid(), s38.getname());
-	h.insert(s39.getid(), s39.getname()); h.insert(s40.getid(), s40.getname()); h.insert(s41.getid(), s41.getname()); h.insert(s42.getid(), s42.getname());
-	h.insert(s43.getid(), s43.getname()); h.insert(s44.getid(), s44.getname()); h.insert(s45.getid(), s45.getname()); h.insert(s46.getid(), s46.getname());
-	h.insert(s47.getid(), s47.getname()); h.insert(s48.getid(), s48.getname()); h.insert(s49.getid(), s49.getname()); h.insert(s50.getid(), s50.getname());
-	h.insert(s21.getid(), s21.getname()); h.insert(s26.getid(), s26.getname());
-
-
-
-	//
+	
 	/*
 	for (int i = 0; i < n; i++) {
 		cout << "i = "<< i << endl;
